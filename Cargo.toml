@@ -1,0 +1,11 @@
+[package]
+name = "boltzmann"
+version = "0.1.0"
+authors = ["Gabriele Lanaro <gabriele.lanaro@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "boltz"
+path = "src/boltz.rs"
